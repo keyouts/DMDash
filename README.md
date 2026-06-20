@@ -1,7 +1,6 @@
 # DM Drawing Board (Early Beta)
 
-![DM Drawing Board](https://raw.githubusercontent.com/keyouts/DM-Drawing-Board/434f7212fe3cc363ee659623a27dc9984ba3f0a1/DMDrawingBoardImage.png)
-![Campaign Board Overlay](https://raw.githubusercontent.com/keyouts/DM-Drawing-Board/434f7212fe3cc363ee659623a27dc9984ba3f0a1/CampaignBoardOverlay.png)
+
 
 DM Drawing Board is a lightweight Electron application that combines campaign planning, map creation, encounter organization, character tracking, session notes, and dice rolling into a single desktop tool.
 
