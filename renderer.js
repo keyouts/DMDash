@@ -559,7 +559,7 @@ function getToolHint() {
   const count = pendingWaterPoints.length;
   const names = {
     draw: `${brushLabel()} brush: drag to ink the map`,
-    erase: 'Eraser: drag to carve ink away',
+    erase: 'Eraser: drag to erase ink',
     symbol: 'Symbol: click the board to stamp the selected icon',
     label: 'Label: click the board and type a map label',
     location: 'Location pin: click to create a linked campaign entry',
