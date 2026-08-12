@@ -1,0 +1,32 @@
+{
+  "name": "dm-dash",
+  "version": "1.2.4",
+  "private": true,
+  "description": "A DM dashboard.",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check electron/main.js && node --check electron/preload.js && node --check shared/security.js && node --check platform.js && node --check renderer.js && node --check scripts/build-pages.js",
+    "test": "npm run check && node --test",
+    "pages:build": "node scripts/build-pages.js",
+    "audit": "npm audit",
+    "verify": "npm test && npm run pages:build"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "keywords": [
+    "electron",
+    "github-pages",
+    "dnd",
+    "dungeons-and-dragons",
+    "worldbuilding",
+    "dm-tools"
+  ],
+  "author": "KeyOuts",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "43.2.0"
+  },
+  "productName": "DM Dash"
+}
